@@ -16,4 +16,7 @@ public class Employee {
 		this.ename = ename;
 	}
 	
+	public Employee() {
+		System.out.println("Employee construactor created");
+	}
 }
